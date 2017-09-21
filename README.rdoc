@@ -6,16 +6,45 @@ application up and running.
 Things you may want to cover:
 
 * Ruby version
+  ruby version 2.3
 
 * System dependencies
 
 * Configuration
 
+  install ruby using
+  
+  $ sudo apt install ruby
+
+  install other packages
+  
+  $ sudo apt install ruby-dev libsqlite3-dev nodejs
+
+  install rails as ruby gem
+
+  $ sudo gem install rails -v 4.2.9
+
 * Database creation
+
+  build new application and change into
+
+  $ rails new depot
+
+  $ cd depot
 
 * Database initialization
 
+  after appropriately configuring git
+
+  ~/depot$ git init
+
+  ~/depot$ git add .
+
+  ~/depot$ git commit -m "initial commit"
+
 * How to run the test suite
+
+  rake test
 
 * Services (job queues, cache servers, search engines, etc.)
 
