@@ -7,13 +7,13 @@
     margin: 0;
     padding-bottom: 0.5em;
     font: 150% sans-serif;
-    color: #226;
-    border-bottom: 3px dotted #77c;
+    color: #282;
+    border-bottom: 3px dotted #286;
   }
   .entry {
     overflow: auto;
     margin-top: 1em;
-    border-bottom: 1px dotted #77c;
+    border-bottom: 1px dotted #286;
     min-height: 100px;
     
     img {
@@ -28,8 +28,8 @@
       font-family: sans-serif;
       margin-left: 100px;
       margin-top: 0;
-      margin-bottom: 2px;
-      color: #227;
+      margin-bottom: 1em;
+      color: #282;
     }
 
     p, div.price_line {
@@ -39,7 +39,7 @@
     }
 
     .price {
-      color: #44a;
+      color: #288;
       font-weight: bold;
       margin-right: 3em;
     }
