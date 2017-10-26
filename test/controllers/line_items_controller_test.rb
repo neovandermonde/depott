@@ -34,6 +34,13 @@ class LineItemsControllerTest < ActionController::TestCase
     assert_response :success
   end
 
+  test "should create line item via ajax" do
+    assert_difference('LineItem.count') do
+      xhr :post, :create, :product_id => products(:one).id
+    end
+    assert_response :success
+  end
+
   test "should update line_item" do
     patch :update, id: @line_item, line_item: { product_id: @line_item.product_id }
     assert_redirected_to line_item_path(assigns(:line_item))
